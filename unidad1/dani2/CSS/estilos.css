@@ -1,0 +1,48 @@
+h1 {
+    background-color: aqua;
+    color: black;
+    border: 3px;
+    border-radius: 12px;
+    border-style: dotted;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    border-style: double;
+    border-color: aquamarine;
+
+}
+
+.a {
+    padding: 10px;
+}
+
+.b {
+    padding: 10px;
+}
+
+.c {
+    padding: 10px;
+}
+
+.d {
+    padding: 10px;
+    
+}
+
+.e {padding: 10px;}
+
+.f {
+    padding: 10px;
+}
+
+.g {
+    padding: 20px;
+}
+.h {
+    padding: 20px;
+}
+.i {
+    padding: 20px;
+}

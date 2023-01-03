@@ -1,0 +1,9 @@
+img{
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    border: solid black 5px ;
+}
+img:hover{
+    background-color: darkorange;
+}

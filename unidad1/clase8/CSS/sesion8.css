@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(175, 214, 165);
+}
+
+.Titulo {
+    text-align: center;
+    background-color: rgb(216, 132, 64);
+    color: white;
+}
+
+.caja-c {
+    border: 20px solid black;
+    outline: 10px solid rgb(40, 102, 40);
+    margin: 25px;
+    padding: 25px;
+}
+
+.def {
+    padding: 20px;
+}
+
+.sub2 {
+    text-decoration: overline;
+}
+
+.Sub {
+    text-decoration: line-through;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    text-decoration: underline overline;
+}
+
+img {
+    float: left;
+    padding: 15px;
+}
+
+.a {
+    text-align: center;
+    margin: 20px;
+}
+
+.b {
+    text-align: left;
+    margin: 20px;
+}
+
+.c {
+    text-align: right;
+    margin: 20px;
+}
+
+.d {
+    text-align: justify;
+    margin: 20px;
+}

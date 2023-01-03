@@ -1,0 +1,16 @@
+.titulo {
+    border: 5px solid yellow;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subtitulo {
+    border: 5px solid blue;
+    border-radius: 12px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.parrafo {
+    border: 5px solid red;
+    border-radius: 10px;
+}
+body{background-color: rgb(248, 168, 183);}

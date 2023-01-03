@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(209, 173, 173);
+    margin-left: 50px;
+    margin-right:50px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: rgb(212, 46, 129);
+}
+
+.definicion {
+    border : rgb(212, 46, 129) dashed ;
+    margin: 25px;
+    padding: 25px;
+}
+
+.a {
+    text-align: center;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo1 {
+    background-color: rgba(146, 88, 88, 0.829);
+}
+
+.b {
+    border: rgb(146, 88, 88, 0.829) dotted;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.link1 {
+
+    color: rgb(36, 114, 88);
+}
+
+.link2 {
+    color: rgb(139, 73, 84);
+}
+
+.link3 {
+    color: red;
+}
+
+.link4 {
+    color: rgb(88, 44, 88);
+}
+
+.link5 {
+    color: rgb(28, 65, 28);
+}
+
+.link6 {
+    color: blue;
+}
+
+.contenido {
+    border: rgb(212, 46, 129) double ;
+    margin: 25px;
+    padding: 25px;
+}
+
+thead {
+    background-color: rgb(189, 147, 69);
+}
+
+tbody {
+    background-color: yellow;
+}
+
+.c {
+    border: rgb(212, 46, 129) inset;
+    margin
+    : 25px;
+    padding: 25px;
+}
+
+.d {
+    color: Blue
+}
+
+.e {
+    border: rgb(117, 16, 16) groove;
+    margin: 25px;
+    padding: 25px;
+}
+
+.subtitulo2 {
+    color: rgb(54, 128, 54);
+    text-align: center;
+}
+
+.map {
+    padding-left: 375px;
+    margin-top: 100px;
+}

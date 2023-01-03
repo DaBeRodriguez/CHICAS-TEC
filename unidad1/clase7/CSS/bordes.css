@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(202, 202, 167);
+}
+
+div{
+    height: 100px;
+}
+
+h1 {
+    background-color: white;
+    color: rgb(128, 74, 74);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.a {
+    border: 5px dashed rgb(160, 109, 109);
+    border-radius: 12px; 
+}
+
+.b {
+    border: 5px dotted rgb(62, 114, 62);
+    border-radius: 12px ; 
+}
+
+.c {
+    border: 5px double rgb(87, 177, 184);
+    border-radius: 12px ;
+}
+
+.d {
+    border: 5px groove rgb(140, 125, 206);
+    border-radius: 12px ; 
+}
+
+.e {
+    border: 5px ridge rgb(196, 127, 62);
+    border-radius: 12px ;
+}
+.f {
+    border: 5px inset rgb(161, 80, 128);
+    border-radius: 12px ;
+}
+
+.abc {
+    border: 5px outset rgb(204, 67, 67);
+    border-radius: 12px ; 
+}
+
+span {
+    color: rgb(128, 79, 79);
+    font-family: cursive; 
+}
+
+.g {
+    border-bottom: 15px dashed rgb(131, 75, 75); 
+}
+
+.h {
+    border-top: 15px dotted rgb(110, 84, 50); 
+}
+
+.i {
+    border-left: 25px double rgb(95, 139, 95);
+}
+
+.j {
+    border-right: 25px double rgb(113, 113, 177); 
+}
+
+.k {
+    border-bottom: 5px dotted rgb(212, 102, 120);
+    border-top: 5px dotted rgb(212,102,120);
+}
