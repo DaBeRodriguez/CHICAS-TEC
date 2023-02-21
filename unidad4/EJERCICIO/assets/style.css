@@ -1,0 +1,28 @@
+ body{
+    background-color:rgb(255, 252, 210);;
+ }
+
+ .cuadro{
+    border: solid black 5px;
+    background-color: white;
+    margin: 100px;
+ }
+ .titulo{
+    border: 2px solid black;
+
+ }
+
+ img{
+    width: 250px;
+    height: 180px;
+ }
+
+ .imagen1{
+    border: 2px solid black ;
+    text-align: center;
+    
+
+ }
+ .abc{
+   padding: 15px;
+ }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <h1>
+        Componentes de bootstrap
+    </h1>
+    <h3>
+        Tab o Pestañas
+    </h3>
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Inicio</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Sobre Nosotros</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contactanos</button>
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+            tabindex="0">Estas en el home </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">Lorem
+            ipsum dolor sit amet consectetur, adipisicing elit. Incidunt numquam delectus libero, unde quae animi fugiat
+            error suscipit cum dolorum doloremque inventore magni molestiae. Omnis quo perspiciatis nesciunt minus quis?
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ratione tempora, et laborum quod delectus
+            quidem. Fugit, magni ex! Dolores at doloremque, alias nostrum unde possimus eligendi quisquam aliquid
+            dolore?</div>
+    </div>
+
+    <hr>
+
+    <h3>Popovers</h3>
+    <div class="text-center">
+
+        <button type="button" class="btn btn-secondary" data-bs-placement="bottom" data-bs-toggle="popover"
+            data-bs-custom-class="custom-popover" data-bs-title="JavaScript"
+            data-bs-content="Es un lenguaje de programacion para dar funcionabilidad a una pagina web"> Click para
+            conocer JS
+
+        </button>
+
+        <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-placement="top"
+            data-bs-title="Popover title"
+            data-bs-content="And here's some amazing content. It's very engaging. Right?">Arriba
+        </button>
+
+        <button type="button" class="btn btn-success" data-bs-toggle="popover" data-bs-placement="right"
+            data-bs-title="Boton Nuevo" data-bs-content="Este es un boton que cree como ejercicio"> Boton nuevo
+
+
+        </button>
+
+    </div>
+    <h3>Bordes</h3>
+    <div class="d-flex justify-content-evenly">
+
+        <div class="border p-5"></div>
+        <div class="border p-5 border-primary"></div>
+        <div class="border p-5 border-danger"></div>
+        <div class="border p-5 border-info"></div>
+        <div class="border p-5 border-warning"></div>
+        <div class="border p-5 border-success"></div>
+        <div class="border p-5 border-light"></div>
+
+    </div>
+    <hr>
+    <h3>Sombras</h3>
+    <div class="d-flex justify-content-evenly">
+        <div class="border p-5 shadow-none "></div>
+        <div class="shadow-sm p-5 bg-body-tertiary rounded"></div>
+        <div class="shadow p-5  bg-body-tertiary rounded"></div>
+        <div class="border p-5 border-info shadow-lg p-5  bg-body-tertiary rounded"></div>
+
+    </div>
+    <hr>
+    <h3>
+        Sistema de grillas
+    </h3>
+    <div class="row">
+        <div class="col-8">Imagen</div>
+        <div class="col-4">Texto</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="assets/app.js"></script>
+
+</body>
+
+</html>
