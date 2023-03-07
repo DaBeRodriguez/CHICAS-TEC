@@ -1,22 +1,28 @@
-import { GuardarTarea, ListarTareas } from "./app/firebase.js";
+import { GuardarTarea, ListarTareas, OnListarTareas } from "./app/firebase.js";
 
 let contenedor = document.getElementById("contenedor");
 
 window.addEventListener("DOMContentLoaded", async () => {
-  let lista = await ListarTareas();
+  // let lista = await ListarTareas();
   // console.log(lista);
-  lista.forEach((doc) => {
-    console.log(doc.data()._titulo);
 
-    let tarea = doc.data()._titulo;
-    let html = `
+  OnListarTareas((lista) => {
+    let html = "";
+
+    lista.forEach((doc) => {
+      // console.log(doc.data();
+
+      let tarea = doc.data();
+
+      html += `
       <div>
-        <h3 id='aaa'></h3>
+        <h3 class="text-primary mt-3">${tarea._titulo}</h3>
+        <p>${tarea._descripcion}</p>
       </div>
-    `
+    `;
 
-    
-    contenedor.innerHTML = tarea;
+      contenedor.innerHTML = html;
+    });
   });
 });
 
